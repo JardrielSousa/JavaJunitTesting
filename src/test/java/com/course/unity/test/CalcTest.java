@@ -45,7 +45,7 @@ public class CalcTest {
 	
 	@Test
 	@DisplayName("test 7 * 3 = 21")
-	public void multiplicationTest() {
+	public void test_multiplication_when_seven_multiplyByThree_ShouldReturn_Twenty_one() {
 		firstNumber = 7;
 		secondNumber = 3;
 		double result = simpleCalc.multiplication(firstNumber, secondNumber);
